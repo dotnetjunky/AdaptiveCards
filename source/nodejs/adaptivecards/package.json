@@ -1,5 +1,5 @@
 {
-	"name": "adaptivecards",
+	"name": "@loop/adaptivecards",
 	"version": "4.0.0",
 	"description": "Adaptive Cards Javascript library for HTML Clients",
 	"author": "AdaptiveCards",
@@ -46,9 +46,6 @@
 		"typedoc": "^0.24.0",
 		"typedoc-plugin-markdown": "^3.11.2"
 	},
-	"peerDependencies": {
-		"swiper": "^11.0.7"
-	},
 	"jest": {
 		"verbose": true,
 		"preset": "ts-jest/presets/default-esm",
@@ -67,7 +64,6 @@
 			".*\\.d\\.ts$"
 		],
 		"moduleNameMapper": {
-			"^swiper/css": "<rootDir>/__mocks__/cssMock.js"
 		},
 		"moduleFileExtensions": [
 			"js",
