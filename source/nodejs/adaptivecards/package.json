@@ -23,7 +23,7 @@
 	"scripts": {
 		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --forceExit --runInBand --detectOpenHandles",
 		"clean": "rimraf build lib dist",
-		"generate-css": "concurrently \"sass -I ../node_modules src/scss/adaptivecards-default.scss lib/adaptivecards.css\" \"sass -I ../node_modules src/scss/adaptivecards-carousel.scss lib/adaptivecards-carousel.css\"",
+		"generate-css": "concurrently \"sass -I ../node_modules src/scss/adaptivecards-default.scss lib/adaptivecards.css\"",
 		"build-source": "concurrently \"tsc\" \"npm:generate-css\"",
 		"prebuild": "npm run build-source",
 		"build": "webpack",
@@ -44,8 +44,7 @@
 		"cross-env": "^7.0.3",
 		"rimraf": "^3.0.2",
 		"typedoc": "^0.24.0",
-		"typedoc-plugin-markdown": "^3.11.2",
-		"swiper": "^11.1.7"
+		"typedoc-plugin-markdown": "^3.11.2"
 	},
 	"jest": {
 		"verbose": true,
