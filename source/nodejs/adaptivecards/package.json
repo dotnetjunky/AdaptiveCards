@@ -44,7 +44,8 @@
 		"cross-env": "^7.0.3",
 		"rimraf": "^3.0.2",
 		"typedoc": "^0.24.0",
-		"typedoc-plugin-markdown": "^3.11.2"
+		"typedoc-plugin-markdown": "^3.11.2",
+		"swiper": "^11.1.7"
 	},
 	"jest": {
 		"verbose": true,
@@ -64,6 +65,7 @@
 			".*\\.d\\.ts$"
 		],
 		"moduleNameMapper": {
+			"^swiper/css": "<rootDir>/__mocks__/cssMock.js"
 		},
 		"moduleFileExtensions": [
 			"js",

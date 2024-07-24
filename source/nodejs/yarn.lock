@@ -11428,6 +11428,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://office.pkgs.visualstudio.com/_packaging/Office/npm/registry/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha1-btpL00SjyUrqN21MwxvHcxEDngk=
 
+swiper@^11.1.7:
+  version "11.1.7"
+  resolved "https://office.pkgs.visualstudio.com/_packaging/Office/npm/registry/swiper/-/swiper-11.1.7.tgz#3ce3ecdfaeb4d768115dfb0ae1d077e66e04d0c9"
+  integrity sha1-POPs366012gRXfsK4dB35m4E0Mk=
+
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://office.pkgs.visualstudio.com/_packaging/Office/npm/registry/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
