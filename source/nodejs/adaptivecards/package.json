@@ -17,8 +17,7 @@
 	"sideEffects": false,
 	"files": [
 		"lib",
-		"dist",
-		"src"
+		"dist"
 	],
 	"scripts": {
 		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --forceExit --runInBand --detectOpenHandles",
