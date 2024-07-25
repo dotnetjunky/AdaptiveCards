@@ -1,5 +1,5 @@
 {
-	"name": "@loop/adaptivecards",
+	"name": "@microsoft-loop/adaptivecards",
 	"version": "1.0.0",
 	"description": "Adaptive Cards Javascript library for HTML Clients. This library is a fork of the official adaptivecards package but it removes the Caoursel control in order to avoid dependency on the 'swiper' package.",
 	"author": "AdaptiveCards",
@@ -15,10 +15,12 @@
 	"main": "lib/adaptivecards.js",
 	"types": "lib/adaptivecards.d.ts",
 	"sideEffects": false,
+	"publishConfig": {
+		"access": "public"
+	},
 	"files": [
 		"lib",
-		"dist",
-		"src"
+		"dist"
 	],
 	"scripts": {
 		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --forceExit --runInBand --detectOpenHandles",
@@ -37,7 +39,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://git@github.com/microsoft/AdaptiveCards.git"
+		"url": "git://git@github.com/dotnetjunky/AdaptiveCards.git"
 	},
 	"devDependencies": {
 		"concurrently": "^5.2.0",
