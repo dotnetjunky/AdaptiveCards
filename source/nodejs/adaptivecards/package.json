@@ -1,5 +1,5 @@
 {
-	"name": "@microsoftloop/adaptivecards",
+	"name": "@microsoft-loop/adaptivecards",
 	"version": "1.0.0",
 	"description": "Adaptive Cards Javascript library for HTML Clients. This library is a fork of the official adaptivecards package but it removes the Caoursel control in order to avoid dependency on the 'swiper' package.",
 	"author": "AdaptiveCards",
